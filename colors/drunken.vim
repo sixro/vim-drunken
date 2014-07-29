@@ -10,8 +10,8 @@ endif
 
 let g:colors_name = expand("<sfile>:t:r")
 
-hi Normal          cterm=none      ctermfg=248   ctermbg=black
-hi Comment         cterm=none      ctermfg=2     ctermbg=none
+hi Normal          cterm=none      ctermfg=249   ctermbg=black
+hi Comment         cterm=none      ctermfg=239   ctermbg=none
 hi LineNr          cterm=none      ctermfg=11    ctermbg=237
 hi NonText         cterm=none      ctermfg=237   ctermbg=none
 hi SpecialKey      cterm=none      ctermfg=237   ctermbg=none
@@ -21,7 +21,13 @@ hi Visual          cterm=none      ctermfg=black ctermbg=6
 hi ModeMsg         cterm=none      ctermfg=9     ctermbg=none
 hi ErrorMsg        cterm=none      ctermfg=186   ctermbg=88
 
-hi Number          cterm=none      ctermfg=9     ctermbg=none
+hi Constant        cterm=none      ctermfg=9     ctermbg=none
+hi String          cterm=none      ctermfg=13    ctermbg=none
+hi Character       cterm=none      ctermfg=13    ctermbg=none
+hi SpecialChar     cterm=none      ctermfg=13    ctermbg=none
+" See comment for next...
+hi SpecialComment  cterm=none      ctermfg=239   ctermbg=none
+hi Boolean         cterm=none      ctermfg=10    ctermbg=none
 hi Identifier      cterm=none      ctermfg=255   ctermbg=none
 hi Statement       cterm=none      ctermfg=255   ctermbg=none
 hi PreProc         cterm=none      ctermfg=255   ctermbg=none
